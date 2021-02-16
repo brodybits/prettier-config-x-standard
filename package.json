@@ -1,0 +1,32 @@
+{
+  "name": "prettier-config-x-standard",
+  "version": "0.0.1-dev",
+  "description": "TBD",
+  "author": "Christopher J. Brody <chris.brody+brodybits@gmail.com>",
+  "license": "(MIT OR Apache-2.0)",
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "prettierx",
+    "standard"
+  ],
+  "files": [
+    "LICENSE-Apache-2.0.txt",
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --config=index.js --check test-sample.js"
+  },
+  "peerDependencies": {
+    "prettier-config-x": "^0.0.1",
+    "prettier-plugin-x": "^0.0.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "prettier-config-x": "^0.0.1",
+    "prettier-plugin-x": "^0.0.6"
+  }
+}
